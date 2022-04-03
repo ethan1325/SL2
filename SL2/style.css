@@ -1,0 +1,91 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: rgb(194, 231, 248);
+    border: 2px solid rgb(154, 186, 201);
+    height: 100vh;
+}
+
+.registerForm input {
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper h3 {
+    font-weight: 500;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.green {
+    background-color: rgb(97, 209, 97);
+}
+
+.blue {
+    background-color: rgb(98, 98, 212);
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.loginForm {
+    display: flex;
+    padding: 30px;
+    background-color: rgb(247, 247, 122);
+    margin-bottom: 30px;
+}
+
+.backButton {
+    border: 1px solid black;
+    padding: 0 5px;
+    color: black;
+    text-decoration: none;
+    background-color: bisque;
+}
+
+.submit {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: rgb(233, 233, 119);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+nav ul {
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 14px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
